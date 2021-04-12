@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Invoice For</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/invoicestyle.css" />
+</head>
+
+<body>
+  <div class="container-fluid invoice-container">
+    <!-- Header -->
+    <header>
+      <div class="row align-items-center">
+        <div class="col-sm-7 text-center text-sm-left mb-3 mb-sm-0">
+          <img id="logo" src="/img/IDEAFoundryLogo.svg" title="Idea Foundry" alt="Idea Foundry" />
+        </div>
+        <div class="col-sm-5 text-center text-sm-right">
+          <h4 class="text-7 mb-0">Invoice</h4>
+        </div>
+      </div>
+      <hr />
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <div class="row">
+        <div class="col-sm-6"><strong>Date:</strong> 05/12/2019</div>
+        <div class="col-sm-6 text-sm-right">
+          <strong>Invoice No:</strong> 19005
+        </div>
+      </div>
+      <hr />
+      <div class="row">
+        <div class="col-sm-6 text-sm-right order-sm-1">
+          <strong>Pay To:</strong>
+          <address>
+            Idea Foundry, Inc.<br />
+            2705 N. Enterprise St<br />
+            Kernersville, NC 27284<br />
+            contact@IdeaFoundryInc.com
+          </address>
+        </div>
+        <div class="col-sm-6 order-sm-0">
+          <strong>Invoiced To:</strong>
+          <address>
+            Mark Davis<br />
+            3333 Al Davis Way<br />
+            Las Vegas, NV 89118<br />
+          </address>
+        </div>
+      </div>
+      <table class="table table-responsive-md table-striped table-bordered mb-0">
+        <thead>
+          <tr>
+            <th class="col-3 border-0"><strong>Service</strong></td>
+            <th class="col-4 border-0"><strong>Description</strong></td>
+            <th class="col-2 text-center border-0">
+              <strong>Rate</strong>
+            </th>
+            <th class="col-1 text-center border-0">
+              <strong>QTY</strong>
+            </th>
+            <th class="col-2 text-right border-0">
+              <strong>Amount</strong>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="col-3 border-0">Design</td>
+            <td class="col-4 text-1 border-0">Website Design</td>
+            <td class="col-2 text-center border-0">$60.00</td>
+            <td class="col-1 text-center border-0">10</td>
+            <td class="col-2 text-right border-0">$600.00</td>
+          </tr>
+          <tr>
+            <td>Development</td>
+            <td class="text-1">Website Development</td>
+            <td class="text-center">$150.00</td>
+            <td class="text-center">10</td>
+            <td class="text-right">$1500.00</td>
+          </tr>
+          <tr>
+            <td>Deployment</td>
+            <td class="text-1">Deployment and Hosting</td>
+            <td class="text-center">$450.00</td>
+            <td class="text-center">1</td>
+            <td class="text-right">$450.00</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="4" class="bg-light-2 text-right">
+              <strong>Sub Total:</strong>
+            </td>
+            <td class="bg-light-2 text-right">$2550.00</td>
+          </tr>
+          <tr>
+            <td colspan="4" class="bg-light-2 text-right">
+              <strong>Tax:</strong>
+            </td>
+            <td class="bg-light-2 text-right">$0.00</td>
+          </tr>
+          <tr>
+            <td colspan="4" class="bg-light-2 text-right">
+              <strong>Total:</strong>
+            </td>
+            <td class="bg-light-2 text-right">$2550.00</td>
+          </tr>
+        </tfoot>
+      </table>
+    </main>
+    <!-- Footer -->
+    <footer class="text-center mt-4">
+      <p class="text-1">
+        <strong>NOTE :</strong> This is computer generated receipt and does
+        not require physical signature.
+      </p>
+      <div class="btn-group btn-group-sm d-print-none">
+        <a href="javascript:window.print()" class="btn btn-light border text-black-50 shadow-none"><i
+            class="fa fa-print"></i> Print</a>
+        <a href="" class="btn btn-light border text-black-50 shadow-none"><i class="fa fa-download"></i> Download</a>
+      </div>
+    </footer>
+  </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
